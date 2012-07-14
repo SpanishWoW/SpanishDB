@@ -1,3 +1,5 @@
 Parches Metidos:
 
-- Subida BD y prepara para hacer cambios.
+- Subida BD.
+- Corregido un bug en 570_EventAI_YTDB_QUEST.
+- Agregado el fichero revision_SDB.h

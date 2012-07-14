@@ -871,8 +871,8 @@ UPDATE `creature_template` SET `AIName` = 'EventAI' WHERE `entry` = '33272';
 REPLACE INTO `creature_ai_scripts` VALUES ('3322951', '33229', '8', '0', '100', '1', '62544', '-1', '1500', '1500', '11', '62672', '6', '6', '0', '0', '0', '0', '0', '0', '0', '0', 'ytdb');
 UPDATE `creature_template` SET `AIName` = 'EventAI' WHERE `entry` = '33229';
 DELETE FROM `creature_ai_scripts` WHERE `id` = 1527451;
-UPDATE `creature_ai_scripts` SET  `action1_param2` = 1 WHERE `entry` = 295802;
-UPDATE `creature_ai_scripts` SET  `action1_param2` = 1 WHERE `entry` = 296002;
+UPDATE `creature_ai_scripts` SET  `action1_param2` = 1 WHERE `id` = 295802;
+UPDATE `creature_ai_scripts` SET  `action1_param2` = 1 WHERE `id` = 296002;
 
 # NeatElves_570
 UPDATE `creature_ai_scripts` SET `action2_type` = '33',`action2_param1` = '21859',`action2_param2` = '6' WHERE `id` =2185901;
